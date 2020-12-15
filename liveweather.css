@@ -127,3 +127,8 @@ body {
 .searchbycity button img {
     filter: invert(1)
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .temperature {
+        font-size: 2rem;
+    }
+}
